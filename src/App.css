@@ -1,0 +1,100 @@
+.container {
+  min-height: 100vh;
+  background-color: #b7acb7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  max-width: 700px;
+  width: 100%;
+  background: rgb(197, 183, 202);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Updated Form Layout */
+.form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Updated Input Fields */
+.input-field {
+  flex: 1;
+  min-width: 45%;
+  padding: 8px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+}
+
+/* Updated Button */
+.button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.add-button {
+  background: #b9e3ba;
+  color: white;
+  width: 100px; /* Reduced width */
+}
+
+.update-button {
+  background: #f39c12;
+  color: white;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-button {
+  background: #b1c075;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background: #b9908c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
